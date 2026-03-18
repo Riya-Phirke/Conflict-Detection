@@ -38,13 +38,11 @@ The system uses Natural Language Processing techniques to understand emotional t
 ### 1️⃣ Run Frontend
 ```bash
 cd conflict-dashboard
-npm install
 npm run dev
 ```
 
 ### 2️⃣ Run Backend
 ```bash
 cd conflict-backend
-npm install
 node server.js
 ```
