@@ -8,14 +8,12 @@ The system uses Natural Language Processing techniques to understand emotional t
 ## 🎯 Objective
 - Detect conflict-related patterns from textual inputs  
 - Identify emotional indicators in communication  
-- Suggest appropriate resolution strategies  
-- Provide behavioral recommendations for improving communication  
+- Suggest appropriate resolution strategies   
 
 ## 🚀 Key Features
 - Conflict detection from text using NLP techniques  
 - Emotion identification module  
 - Recommendation system for conflict resolution  
-- User authentication dashboard  
 - Modular backend integration  
 
 ## 🛠 Tech Stack
@@ -29,7 +27,8 @@ The system uses Natural Language Processing techniques to understand emotional t
 
 ### AI / NLP Module
 - Python  
-- NLP Libraries  
+- NLP Libraries
+- Explainable AI
 
 ### Database
 - MongoDB  
@@ -39,12 +38,13 @@ The system uses Natural Language Processing techniques to understand emotional t
 ### 1️⃣ Run Frontend
 ```bash
 cd conflict-dashboard
+npm install
 npm run dev
+```
 
-👉 Now **directly paste this next:**
-
-```markdown
-**### 2️⃣ Run Backend**
+### 2️⃣ Run Backend
 ```bash
 cd conflict-backend
+npm install
 node server.js
+```
